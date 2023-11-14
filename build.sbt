@@ -6,3 +6,6 @@ lazy val root = (project in file("."))
   .settings(
     name := "spotify-assignment"
   )
+
+libraryDependencies += "com.lihaoyi" %% "requests" % "0.8.0"
+libraryDependencies += "com.lihaoyi" %% "ujson" % "3.0.0"
