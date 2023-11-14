@@ -3,8 +3,8 @@ import ujson._
 
 object SpotifyPlaylistAnalyzer {
 
-  val clientId = "553d12e4250a488b958f33cf4fc691cb"  // Replace with your Spotify API client ID
-  val clientSecret = "b42eef79de944dd38124b0fada4744db"  // Replace with your Spotify API client secret
+  val clientId = ""
+  val clientSecret = ""
   val playlistId = "5Rrf7mqN8uus2AaQQQNdc1"
   val accessTokenUrl = "https://accounts.spotify.com/api/token"
   val playlistUrl = s"https://api.spotify.com/v1/playlists/$playlistId"
